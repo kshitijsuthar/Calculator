@@ -9,6 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
+    
+    
+    @IBOutlet weak var numberLabel: UILabel!
+    
+    var numbersAreBeingTyped = false;
+    
+    
+    @IBAction func numbers(_ sender: UIButton) {
+        
+        if  numbersAreBeingTyped{
+            
+            numberLabel.text = numberLabel.text! + sender.titleLabel!.text!
+        }
+        
+        else{
+            
+            numberLabel.text=sender.titleLabel!.text
+            numbersAreBeingTyped=true
+            
+        }
+        
+        
+    }
+    
+    
+    @IBAction func operators(_ sender: UIButton) {
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
