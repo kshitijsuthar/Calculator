@@ -40,6 +40,11 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func clearButton(_ sender: UIButton) {
+        
+        numberLabel.text="0"
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
