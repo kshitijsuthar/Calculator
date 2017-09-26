@@ -58,9 +58,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7s-Z1-etH">
-                                <rect key="frame" x="282" y="198" width="94" height="94"/>
+                                <rect key="frame" x="94" y="198" width="94" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <color key="backgroundColor" red="0.86146071446713401" green="0.58616105400776741" blue="0.17400251121393068" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.90753541539672866" green="0.6189568348476302" blue="0.21516782031621889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
                                 <state key="normal" title="/">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,9 +94,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uv3-Lj-Cxt">
-                                <rect key="frame" x="282" y="292" width="94" height="94"/>
+                                <rect key="frame" x="188" y="198" width="94" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <color key="backgroundColor" red="0.86146071446713401" green="0.58616105400776741" blue="0.17400251121393068" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.90753541539672866" green="0.6189568348476302" blue="0.21516782031621889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
                                 <state key="normal" title="x">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -142,9 +142,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qc-ts-S44">
-                                <rect key="frame" x="282" y="386" width="94" height="94"/>
+                                <rect key="frame" x="282" y="198" width="94" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <color key="backgroundColor" red="0.86146071446713401" green="0.58616105400776741" blue="0.17400251121393068" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.90753541539672866" green="0.6189568348476302" blue="0.21516782031621889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -166,27 +166,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFS-sH-IuT">
-                                <rect key="frame" x="282" y="573" width="94" height="94"/>
+                                <rect key="frame" x="282" y="488" width="94" height="179"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <color key="backgroundColor" red="0.86146071449999995" green="0.58616105399999996" blue="0.17400251119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.90753541539672866" green="0.6189568348476302" blue="0.21516782031621889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkr-Dl-zCA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02I-89-gSK">
-                                <rect key="frame" x="282" y="480" width="94" height="94"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <color key="backgroundColor" red="0.86146071446713401" green="0.58616105400776741" blue="0.17400251121393068" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
-                                <state key="normal" title="+">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="08H-hp-DT5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3f-vU-Uvn">
@@ -197,11 +185,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LzO-a5-b2M">
-                                <rect key="frame" x="0.0" y="198" width="282" height="94"/>
+                                <rect key="frame" x="0.0" y="198" width="94" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <color key="backgroundColor" red="0.1596700744" green="0.248972474" blue="0.53184329919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.90753541539672866" green="0.6189568348476302" blue="0.21516782031621889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal" title="C">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -230,6 +218,18 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r7n-f6-02H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02I-89-gSK">
+                                <rect key="frame" x="282" y="292" width="94" height="196"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="0.90753541539672866" green="0.6189568348476302" blue="0.21516782031621889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="08H-hp-DT5"/>
                                 </connections>
                             </button>
                         </subviews>

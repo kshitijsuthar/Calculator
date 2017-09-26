@@ -56,19 +56,19 @@ class ViewController: UIViewController {
         else if sender.tag == 15 {
             
             if arithmeticOperators == 14 {
-                numberLabel.text = String(displayedNumber + firstNumber)
+                numberLabel.text = String(firstNumber + displayedNumber)
             }
             
            else if arithmeticOperators == 13 {
-                numberLabel.text = String(displayedNumber - firstNumber)
+                numberLabel.text = String(firstNumber - displayedNumber)
             }
            
             else if arithmeticOperators == 12 {
-                numberLabel.text = String(displayedNumber * firstNumber)
+                numberLabel.text = String(firstNumber * displayedNumber)
             }
             
             else if arithmeticOperators == 11 {
-                numberLabel.text = String(displayedNumber / firstNumber)
+                numberLabel.text = String(firstNumber / displayedNumber)
             }
         }
         
