@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D876A2A31F6B25B70063D749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876A2A21F6B25B70063D749 /* AppDelegate.swift */; };
 		D876A2A51F6B25B70063D749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876A2A41F6B25B70063D749 /* ViewController.swift */; };
-		D876A2A81F6B25B70063D749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D876A2A61F6B25B70063D749 /* Main.storyboard */; };
+		D876A2A81F6B25B70063D749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D876A2A61F6B25B70063D749 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		D876A2AA1F6B25B70063D749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D876A2A91F6B25B70063D749 /* Assets.xcassets */; };
 		D876A2AD1F6B25B70063D749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D876A2AB1F6B25B70063D749 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -90,6 +90,9 @@
 		D876A2971F6B25B70063D749 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Kshitij Suthar";
