@@ -1,10 +1,12 @@
-//
-//  ViewController.swift
-//  Calculator
-//
-//  Created by Kshitij Suthar on 2017-09-14.
-//  Copyright © 2017 Kshitij Suthar. All rights reserved.
-//
+/*
+ 
+ *Name: Kshitij Suthar
+ *Date:  September 26,2017
+ *StudentID: 300971838
+ *Description: Calculator App
+ *Version: 1.0 - Operators and constraints functional
+ 
+ */
 
 import UIKit
 
@@ -26,9 +28,6 @@ class ViewController: UIViewController {
     @IBAction func numbers(_ sender: UIButton) {
         
         if  operationsAreBeingPerformed{
-            
-
-            
             
             numberLabel.text = numberLabel.text! + sender.titleLabel!.text!              // this keeps adding the number on screen as buttons are tapped
             displayedNumber = Double(numberLabel.text!)!                             // Stores the first number
