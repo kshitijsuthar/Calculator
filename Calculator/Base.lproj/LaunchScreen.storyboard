@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,14 +21,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grid" translatesAutoresizingMaskIntoConstraints="NO" id="Ra9-gl-EJQ">
-                                <rect key="frame" x="87" y="153" width="201" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grid" translatesAutoresizingMaskIntoConstraints="NO" id="Ra9-gl-EJQ">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="cWs-Dy-bUd"/>
+                                    <constraint firstAttribute="height" constant="200" id="wVq-OE-qYP"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8U-He-AV6">
-                                <rect key="frame" x="64" y="361" width="247" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="eBO-0u-jx0"/>
-                                </constraints>
+                                <rect key="frame" x="67.5" y="454.5" width="241" height="47"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="40"/>
                                 <color key="textColor" red="0.86274509799999999" green="0.58823529409999997" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -37,13 +37,10 @@
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="G8U-He-AV6" firstAttribute="top" secondItem="Ra9-gl-EJQ" secondAttribute="bottom" constant="8" symbolic="YES" id="3W5-mf-zZp"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="G8U-He-AV6" secondAttribute="bottom" constant="246" id="4Jk-fF-kev"/>
-                            <constraint firstItem="Ra9-gl-EJQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="71" id="Sec-GU-HgX"/>
-                            <constraint firstItem="Ra9-gl-EJQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="133" id="SnV-iL-D9y"/>
-                            <constraint firstItem="Ra9-gl-EJQ" firstAttribute="centerX" secondItem="G8U-He-AV6" secondAttribute="centerX" id="WHF-e9-m8T"/>
-                            <constraint firstItem="G8U-He-AV6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="48" id="Wy9-uw-Xbt"/>
-                            <constraint firstItem="G8U-He-AV6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="g5U-51-31a"/>
+                            <constraint firstItem="Ra9-gl-EJQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2eI-Gv-yL6"/>
+                            <constraint firstItem="G8U-He-AV6" firstAttribute="centerX" secondItem="Ra9-gl-EJQ" secondAttribute="centerX" id="MaI-0m-eFb"/>
+                            <constraint firstItem="G8U-He-AV6" firstAttribute="top" secondItem="Ra9-gl-EJQ" secondAttribute="bottom" constant="21" id="d8t-p6-t4Q"/>
+                            <constraint firstItem="Ra9-gl-EJQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="to1-Fd-ruE"/>
                         </constraints>
                     </view>
                 </viewController>

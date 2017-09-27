@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         else{
             
             if  numberLabel.text == String(0)   {
-                if sender.tag == 16 {                                                                       // . button is assigned with tag number 16
+                if sender.tag == 16 {                               // . button is assigned with tag number 16
                     
                     numberLabel.text  = "0."
                     decimal = true
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
             }
             
             numberLabel.text=sender.titleLabel!.text!
-            displayedNumber = Double(numberLabel.text!)!                         // The number that is being displayed on the screen is stored here
+            displayedNumber = Double(numberLabel.text!)!      // The number that is being displayed on the screen is stored here
             operationsAreBeingPerformed=true
             
             
