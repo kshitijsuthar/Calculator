@@ -95,6 +95,11 @@ class ViewController: UIViewController {
             
             else if arithmeticOperators == 11 {                                                                     //Tag number 14 is assigned to division button
                 numberLabel.text = String(firstNumber / displayedNumber)
+                
+                if displayedNumber == 0
+                {
+                    numberLabel.text = "Error"
+                }
             }
         }
         
